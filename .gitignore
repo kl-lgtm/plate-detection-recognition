@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 模型权重（体积大，不随仓库分发）
+*.pt
+*.pth
+*.onnx
+runs/
+
+# 数据集（公开数据集，自行下载，不入库）
+dataset/
+ccpd_*/
+
+# 输出产物
+result_images/
+plate_detection_result.csv
+plate_detection_result.xlsx
+loss_curve.png
+
+# 系统
+.DS_Store
+Thumbs.db
